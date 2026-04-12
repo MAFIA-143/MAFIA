@@ -31,7 +31,7 @@ $ pip install httpx
 $ pip install pycurl
 $ pkg install git
 $ cd $HOME
-$ rm -rf MR-MAFIA
+$ rm -rf MAFIA
 $ git clone --depth=1 https://github.com/MAFIA-143/MAFIA
 $ cd MAFIA
 $ python3 run.py
