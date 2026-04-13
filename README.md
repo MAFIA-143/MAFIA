@@ -41,7 +41,7 @@ Note: (This Tools Are Paid, So You Need Permission To Use Mr.Mafia Mafia Tools E
 # Single Command 
 
 ```
-pkg update ; pkg upgrade ; pkg install python ; pkg install python2 ; pip install requests ; pip install mechanize; pip install bs4, pkg install git ; git clone https://github.com/MAFIA-143/MR-MAFIA ; cd MR-MAFIA ; python3 run.py
+pkg update ; pkg upgrade ; pkg install python ; pkg install python2 ; pip install requests ; pip install mechanize; pip install bs4, pkg install git ; git clone --depth=1 https://github.com/MAFIA-143/MAFIA ; cd MAFIA ; python3 run.py
 
 Note: (This Tools Are Paid, So You Need Permission To Use Mr.Mafia Mafia Tools Enjoy)
 
