@@ -52,7 +52,7 @@ fi
 # --- STEP 3: SMART LAUNCHER ---
 ARCH=$(uname -m)
 if [[ "$ARCH" == "aarch64" ]]; then
-    chmod +x mrmafia64 && ./mrmafia64 "$@"
+    chmod +x mrmafia && ./mrmafia "$@"
 elif [[ "$ARCH" == armv* ]] || [[ "$ARCH" == "x86_64" ]] || [[ "$ARCH" == "i686" ]]; then
     chmod +x mrmafia32 && ./mrmafia32 "$@"
 else
