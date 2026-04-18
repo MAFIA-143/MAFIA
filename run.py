@@ -1,10 +1,15 @@
-import MAFIA1
-
+import os, sys, platform
+try:os.system('git pull')
+except:pass
+try:os.system('xdg-open https://www.youtube.com/@mafiams16')
+except:pass
+bit = platform.architecture()[0]
 try:
-    MAFIA1.main() 
-except AttributeError:
-    try:
-        MAFIA1.menu()
-    except:
-        pass
-      
+    if bit == '64bit':
+        from mafia import mrmafia
+        mrmafia._____Exception()
+    else:
+        import mrmafia32
+        mrmafia32._____Exception()
+except Exception as e:
+    exit(str(e))
