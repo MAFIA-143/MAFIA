@@ -1,9 +1,21 @@
-import os, sys
-try:os.system('git pull')
-except:pass
-try:os.system('xdg-open https://www.youtube.com/@mafiams16')
-except:pass
+import os, sys, platform
+
 try:
-    __import__("mrmafia")._____Exception()
+    os.system('git pull')
+except:
+    pass
+
+try:
+    os.system('xdg-open https://www.youtube.com/@mafiams16')
+except:
+    pass
+
+bit = platform.architecture()[0]
+
+try:
+    if bit == '64bit':
+        __import__("mrmafia")._____Exception()
+    else:
+        __import__("mrmafia32")._____Exception()
 except Exception as e:
-    exit(str(e))
+    exit(f"[X] Error: {e}")
