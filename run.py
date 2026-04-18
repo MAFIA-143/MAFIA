@@ -8,7 +8,7 @@ try:
     if bit == '64bit':
         import mrmafia
         mrmafia._____Exception()
-    else:
+    if bit == '32bit':
         import mrmafia32
         mrmafia32._____Exception()
 except Exception as e:
