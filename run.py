@@ -1,49 +1,15 @@
-
-import os, platform
-
- 
-
-try:
-
- 
-
-        import requests
-
- 
-
-except:
-
- 
-
-        os.system('pip2 install requests')
- 
-
+import os, sys, platform
+try:os.system('git pull')
+except:pass
+try:os.system('xdg-open https://www.youtube.com/@mafiams16')
+except:pass
 bit = platform.architecture()[0]
-
- 
-
-if bit == "64bit":
-
-        os.system('xdg-open https://youtube.com/@teach-alamin')
-
- 
-
+try:
+    if bit == '64bit':
         import mrmafia
-
- 
-
-        MRMAFIA_Main()
-
- 
-
-elif bit == "32bit":
-
-        os.system('xdg-open https://youtube.com/@teach-alamin')
-
- 
-
+        mrmafia._____Exception()
+    else:
         import mrmafia32
-
- 
-
-        MRMAFIA_Main()
+        mrmafia32._____Exception()
+except Exception as e:
+    exit(str(e))
