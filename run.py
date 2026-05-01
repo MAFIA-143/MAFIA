@@ -6,8 +6,8 @@ except:pass
 bit = platform.architecture()[0]
 try:
     if bit == '64bit':
-        import mrmafia
-        mrmafia._____Exception()
+        import MAFIAX1
+        MAFIAX1._____Exception()
     else:
         import mrmafia32
         mrmafia32._____Exception()
